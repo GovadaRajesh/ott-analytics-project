@@ -87,7 +87,7 @@ def run(argv=None):
                 table=known_args.output_table,
                 schema=TABLE_SCHEMA,
 
-                # ✅ REQUIRED
+                #  REQUIRED
                 create_disposition=beam.io.BigQueryDisposition.CREATE_IF_NEEDED,
                 write_disposition=beam.io.BigQueryDisposition.WRITE_APPEND,
             )
